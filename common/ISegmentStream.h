@@ -1,7 +1,6 @@
 #pragma once
 
-#include "common/IDataStream.h"
-#include <vector>
+#include "IDataStream.h"
 
 /**
  *	An stream composed of many non-contiguous segments of a larger stream

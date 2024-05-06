@@ -1,4 +1,5 @@
 #include "ITimer.h"
+#include "IDebugLog.h"
 
 // QueryPerformanceCounter is very accurate, but hardware bugs can cause it to return inaccurate results
 // this code uses multimedia timers to check for glitches in QPC

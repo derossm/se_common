@@ -1,6 +1,7 @@
 #pragma once
 
-#include "common/IInterlockedLong.h"
+#include "IInterlockedLong.h"
+#include "ITypes.h"
 
 class IEvent
 {

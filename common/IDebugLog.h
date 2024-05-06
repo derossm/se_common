@@ -1,7 +1,5 @@
 #pragma once
 
-#include <cstdarg>
-
 /**
  *	A simple debug log file
  *	

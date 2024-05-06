@@ -1,9 +1,6 @@
 #pragma once
 
-#include "common/IErrors.h"
-
-#pragma warning(push)
-#pragma warning(disable: 4311 4312)
+#include "IErrors.h"
 
 /**
  *	A singleton base class
@@ -49,5 +46,3 @@ class ISingleton
 };
 
 template <typename T> T * ISingleton <T>::ms_Singleton = 0;
-
-#pragma warning(pop)

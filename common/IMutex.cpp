@@ -1,4 +1,5 @@
 #include "IMutex.h"
+#include "IDebugLog.h"
 
 IMutex::IMutex()
 {

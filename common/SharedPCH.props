@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <SharedPchDir>$(SolutionDir)Outputs\$(Platform)\$(Configuration)\</SharedPchDir>
+    <SharedPch>$(SharedPchDir)vc$(PlatformToolsetVersion).pch</SharedPch>
+    <SharedPdb>$(SharedPchDir)vc$(PlatformToolsetVersion).pdb</SharedPdb>
+    <SharedIdb>$(SharedPchDir)vc$(PlatformToolsetVersion).idb</SharedIdb>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup />
+  <ItemGroup>
+    <BuildMacro Include="SharedPchDir">
+      <Value>$(SharedPchDir)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="SharedPch">
+      <Value>$(SharedPch)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="SharedPdb">
+      <Value>$(SharedPdb)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="SharedIdb">
+      <Value>$(SharedIdb)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

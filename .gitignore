@@ -13,4 +13,7 @@ x64_vc11/*
 *.db
 *.ncb
 *.user
-/common/x64_vc11/Debug
+
+x64_vc11/
+x64/
+

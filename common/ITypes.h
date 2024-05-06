@@ -1,9 +1,6 @@
 #pragma once
 
-#include "common/IErrors.h"
-
-#pragma warning(disable: 4221)
-#include <cmath>
+#include "IErrors.h"
 
 typedef unsigned char		UInt8;		//!< An unsigned 8-bit integer value
 typedef unsigned short		UInt16;		//!< An unsigned 16-bit integer value

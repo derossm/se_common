@@ -1,4 +1,7 @@
 #include "IEvent.h"
+#include "IErrors.h"
+#include "IDebugLog.h"
+#include "ITypes.h"
 
 IEvent::IEvent()
 {

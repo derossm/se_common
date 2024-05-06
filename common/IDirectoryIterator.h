@@ -1,5 +1,7 @@
 #pragma once
 
+#include "ITypes.h"
+
 class IDirectoryIterator
 {
 public:

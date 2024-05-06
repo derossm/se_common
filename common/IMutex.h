@@ -1,4 +1,5 @@
 #pragma once
+#include "ITypes.h"
 
 class IMutex
 {
